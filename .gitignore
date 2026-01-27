@@ -1,0 +1,22 @@
+# Archives
+*.rar
+
+# Tools / bots
+
+
+# Angular
+node_modules/
+dist/
+# Secrets
+*.properties
+*.env
+
+# IDE
+.idea/
+.vscode/
+a i - a g e n t - e c c /  
+ e m s i - b o t /  
+ s p r i n g - k a f k a /  
+ n o d e _ m o d u l e s /  
+ d i s t /  
+ 

@@ -1,0 +1,65 @@
+/* Gradient pour le header */
+.bg-gradient-primary {
+  background: linear-gradient(135deg, #0f9b8e 0%, #3ab0ff 100%) !important;
+}
+
+/* Animation au hover sur les lignes */
+.customer-row {
+  transition: all 0.3s ease;
+}
+
+.customer-row:hover {
+  background-color: #f0fbff;
+  transform: translateX(5px);
+  box-shadow: 0 2px 8px rgba(58, 176, 255, 0.15);
+}
+
+/* Avatar circulaire avec initiale */
+.avatar-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #0f9b8e 0%, #3ab0ff 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Style du card */
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card-header {
+  border-bottom: none;
+}
+
+/* Bouton avec effet */
+.btn-success {
+  background: linear-gradient(135deg, #ff8f70 0%, #ff6a88 100%);
+  border: none;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(255, 138, 128, 0.35);
+}
+
+/* Badge stylé */
+.badge {
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+}
+
+/* Icônes colorées */
+.table-light th i {
+  font-size: 1rem;
+}
